@@ -5,4 +5,6 @@ module sk.stuba.fei.oop.feioopls2023cvicenie3 {
 
     opens sk.stuba.fei.oop.feioopls2023cvicenie3 to javafx.fxml;
     exports sk.stuba.fei.oop.feioopls2023cvicenie3;
+    exports sk.stuba.fei.oop.feioopls2023cvicenie3.Auto;
+    opens sk.stuba.fei.oop.feioopls2023cvicenie3.Auto to javafx.fxml;
 }
